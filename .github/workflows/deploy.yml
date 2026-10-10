@@ -20,3 +20,6 @@ jobs:
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         server-dir: /htdocs/
+        # Eliminar archivos predeterminados del hosting si existen
+        exclude: |
+          **/index2.html
