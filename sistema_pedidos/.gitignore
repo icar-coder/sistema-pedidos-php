@@ -1,0 +1,7 @@
+# Credenciales o archivos de configuración local
+.env
+config.local.php
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db

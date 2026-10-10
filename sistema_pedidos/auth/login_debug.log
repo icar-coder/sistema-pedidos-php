@@ -1,0 +1,1591 @@
+[2025-11-09 21:24:52] === INICIANDO LOGIN.PHP ===
+[2025-11-09 21:24:52] SESSION: Array
+(
+)
+
+[2025-11-09 21:24:52] POST: Array
+(
+)
+
+[2025-11-09 21:24:52] SERVER: GET
+[2025-11-09 21:24:52] === FINALIZANDO LOGIC ===
+[2025-11-09 21:24:52] Show tasa dolar: NO
+[2025-11-09 21:24:52] Error: 
+[2025-11-09 21:25:02] === INICIANDO LOGIN.PHP ===
+[2025-11-09 21:25:02] SESSION: Array
+(
+)
+
+[2025-11-09 21:25:02] POST: Array
+(
+    [nombre_usuario] => moise
+    [password] => 123456798
+)
+
+[2025-11-09 21:25:02] SERVER: POST
+[2025-11-09 21:25:02] === PROCESANDO POST ===
+[2025-11-09 21:25:02] Proceso de login normal
+[2025-11-09 21:25:02] Usuario: moise, Password: PROVIDENCIADO
+[2025-11-09 21:25:02] Buscando usuario en BD: moise
+[2025-11-09 21:25:02] Resultado de usuario: Array
+(
+    [idUsuario] => 7
+    [nombre_usuario] => moise
+    [contrasena] => $2y$10$4OaRf822YU.EifHjoN6UEeFvMF79Powq6nufhVBsmhpYpb8kScURi
+    [rol] => Admin
+)
+
+[2025-11-09 21:25:03] Autenticación FALLIDA
+[2025-11-09 21:25:03] === FINALIZANDO LOGIC ===
+[2025-11-09 21:25:03] Show tasa dolar: NO
+[2025-11-09 21:25:03] Error: Nombre de usuario o contraseña incorrectos.
+[2025-11-09 21:25:08] === INICIANDO LOGIN.PHP ===
+[2025-11-09 21:25:08] SESSION: Array
+(
+)
+
+[2025-11-09 21:25:08] POST: Array
+(
+    [nombre_usuario] => moise
+    [password] => 123456789
+)
+
+[2025-11-09 21:25:08] SERVER: POST
+[2025-11-09 21:25:08] === PROCESANDO POST ===
+[2025-11-09 21:25:08] Proceso de login normal
+[2025-11-09 21:25:08] Usuario: moise, Password: PROVIDENCIADO
+[2025-11-09 21:25:08] Buscando usuario en BD: moise
+[2025-11-09 21:25:08] Resultado de usuario: Array
+(
+    [idUsuario] => 7
+    [nombre_usuario] => moise
+    [contrasena] => $2y$10$4OaRf822YU.EifHjoN6UEeFvMF79Powq6nufhVBsmhpYpb8kScURi
+    [rol] => Admin
+)
+
+[2025-11-09 21:25:09] Autenticación EXITOSA
+[2025-11-09 21:25:09] Sesión iniciada: UserID: 7, Rol: Admin
+[2025-11-09 21:25:09] === GETTASAACTUAL ===
+[2025-11-09 21:25:09] Resultado de tasa actual: Array
+(
+    [valor_dolar] => 10.00
+)
+
+[2025-11-09 21:25:09] Tasa en sesión: 10.00
+[2025-11-09 21:25:09] === GETTASAACTUAL ===
+[2025-11-09 21:25:09] Resultado de tasa actual: Array
+(
+    [valor_dolar] => 10.00
+)
+
+[2025-11-09 21:25:09] Es Admin, mostrando formulario de tasa
+[2025-11-09 21:25:09] === GETTASAACTUAL ===
+[2025-11-09 21:25:09] Resultado de tasa actual: Array
+(
+    [valor_dolar] => 10.00
+)
+
+[2025-11-09 21:25:09] Tasa actual para mostrar: 10.00
+[2025-11-09 21:25:09] === FINALIZANDO LOGIC ===
+[2025-11-09 21:25:09] Show tasa dolar: SI
+[2025-11-09 21:25:09] Error: 
+[2025-11-09 21:25:15] === INICIANDO LOGIN.PHP ===
+[2025-11-09 21:25:15] SESSION: Array
+(
+    [user_id] => 7
+    [user_name] => moise
+    [role] => Admin
+    [tasa_dolar] => 10.00
+)
+
+[2025-11-09 21:25:15] POST: Array
+(
+    [tasa_dolar] => 300
+    [tasa_action] => update
+)
+
+[2025-11-09 21:25:15] SERVER: POST
+[2025-11-09 21:25:15] Usuario ya en sesión, redirigiendo...
+[2025-11-09 21:29:17] === INICIANDO LOGIN.PHP ===
+[2025-11-09 21:29:17] SESSION: Array
+(
+)
+
+[2025-11-09 21:29:17] POST: Array
+(
+)
+
+[2025-11-09 21:29:17] SERVER METHOD: GET
+[2025-11-09 21:29:17] Es formulario de tasa: NO
+[2025-11-09 21:29:17] === FINALIZANDO LOGIC ===
+[2025-11-09 21:29:17] Show tasa dolar: NO
+[2025-11-09 21:29:17] Error: 
+[2025-11-09 21:29:18] === INICIANDO LOGIN.PHP ===
+[2025-11-09 21:29:18] SESSION: Array
+(
+)
+
+[2025-11-09 21:29:18] POST: Array
+(
+)
+
+[2025-11-09 21:29:18] SERVER METHOD: GET
+[2025-11-09 21:29:18] Es formulario de tasa: NO
+[2025-11-09 21:29:18] === FINALIZANDO LOGIC ===
+[2025-11-09 21:29:18] Show tasa dolar: NO
+[2025-11-09 21:29:18] Error: 
+[2025-11-09 21:29:24] === INICIANDO LOGIN.PHP ===
+[2025-11-09 21:29:24] SESSION: Array
+(
+)
+
+[2025-11-09 21:29:24] POST: Array
+(
+    [nombre_usuario] => moise
+    [password] => 123456789
+)
+
+[2025-11-09 21:29:24] SERVER METHOD: POST
+[2025-11-09 21:29:24] Es formulario de tasa: NO
+[2025-11-09 21:29:24] === PROCESANDO POST ===
+[2025-11-09 21:29:24] Proceso de login normal
+[2025-11-09 21:29:24] Usuario: moise, Password: PROVIDENCIADO
+[2025-11-09 21:29:24] Buscando usuario en BD: moise
+[2025-11-09 21:29:24] Resultado de usuario: Array
+(
+    [idUsuario] => 7
+    [nombre_usuario] => moise
+    [contrasena] => $2y$10$4OaRf822YU.EifHjoN6UEeFvMF79Powq6nufhVBsmhpYpb8kScURi
+    [rol] => Admin
+)
+
+[2025-11-09 21:29:25] Autenticación EXITOSA
+[2025-11-09 21:29:25] Sesión iniciada: UserID: 7, Rol: Admin
+[2025-11-09 21:29:25] === GETTASAACTUAL ===
+[2025-11-09 21:29:25] Resultado de tasa actual: Array
+(
+    [valor_dolar] => 10.00
+)
+
+[2025-11-09 21:29:25] Tasa en sesión: 10.00
+[2025-11-09 21:29:25] === GETTASAACTUAL ===
+[2025-11-09 21:29:25] Resultado de tasa actual: Array
+(
+    [valor_dolar] => 10.00
+)
+
+[2025-11-09 21:29:25] Es Admin, mostrando formulario de tasa
+[2025-11-09 21:29:25] === GETTASAACTUAL ===
+[2025-11-09 21:29:25] Resultado de tasa actual: Array
+(
+    [valor_dolar] => 10.00
+)
+
+[2025-11-09 21:29:25] Tasa actual para mostrar: 10.00
+[2025-11-09 21:29:25] === FINALIZANDO LOGIC ===
+[2025-11-09 21:29:25] Show tasa dolar: SI
+[2025-11-09 21:29:25] Error: 
+[2025-11-09 21:29:30] === INICIANDO LOGIN.PHP ===
+[2025-11-09 21:29:30] SESSION: Array
+(
+    [user_id] => 7
+    [user_name] => moise
+    [role] => Admin
+    [tasa_dolar] => 10.00
+)
+
+[2025-11-09 21:29:30] POST: Array
+(
+    [tasa_dolar] => 300
+    [tasa_action] => update
+)
+
+[2025-11-09 21:29:30] SERVER METHOD: POST
+[2025-11-09 21:29:30] Es formulario de tasa: SI
+[2025-11-09 21:29:30] === PROCESANDO POST ===
+[2025-11-09 21:29:30] Formulario de tasa detectado
+[2025-11-09 21:29:30] Tasa action: update
+[2025-11-09 21:29:30] Tasa dólar recibida: 300
+[2025-11-09 21:29:30] Intentando guardar tasa: 300 por usuario: 7
+[2025-11-09 21:29:30] === GUARDARTASADOLAR ===
+[2025-11-09 21:29:30] Valor dólar: 300, Usuario ID: 7
+[2025-11-09 21:29:30] Transacción iniciada
+[2025-11-09 21:29:31] Desactivar tasas anteriores: ÉXITO
+[2025-11-09 21:29:31] Filas afectadas: 1
+[2025-11-09 21:29:31] Insertar nueva tasa: ÉXITO
+[2025-11-09 21:29:31] ID insertado: 2
+[2025-11-09 21:29:31] Actualizar configuraciones: ÉXITO
+[2025-11-09 21:29:31] Filas afectadas en configuraciones: 1
+[2025-11-09 21:29:31] Ejecutando procedimiento almacenado...
+[2025-11-09 21:29:31] Procedimiento almacenado: ÉXITO
+[2025-11-09 21:29:31] Transacción COMMIT exitosa
+[2025-11-09 21:29:31] Tasa guardada exitosamente en sesión: 300
+[2025-11-09 21:29:31] === GETTASAACTUAL ===
+[2025-11-09 21:29:31] Resultado de tasa actual: Array
+(
+    [valor_dolar] => 300.00
+)
+
+[2025-11-09 21:29:31] Verificación inmediata - Tasa en BD: 300.00
+[2025-11-09 21:29:31] Redirigiendo después de actualizar tasa...
+[2025-11-09 21:29:31] Redirigiendo por rol: Admin
+[2025-11-15 21:04:25] === INICIANDO LOGIN.PHP ===
+[2025-11-15 21:04:25] SESSION: Array
+(
+)
+
+[2025-11-15 21:04:25] POST: Array
+(
+)
+
+[2025-11-15 21:04:25] SERVER METHOD: GET
+[2025-11-15 21:04:25] Es formulario de tasa: NO
+[2025-11-15 21:04:25] === FINALIZANDO LOGIC ===
+[2025-11-15 21:04:25] Show tasa dolar: NO
+[2025-11-15 21:04:25] Error: 
+[2025-11-15 21:04:29] === INICIANDO LOGIN.PHP ===
+[2025-11-15 21:04:29] SESSION: Array
+(
+)
+
+[2025-11-15 21:04:29] POST: Array
+(
+    [nombre_usuario] => admin
+    [password] => 123456
+)
+
+[2025-11-15 21:04:29] SERVER METHOD: POST
+[2025-11-15 21:04:29] Es formulario de tasa: NO
+[2025-11-15 21:04:29] === PROCESANDO POST ===
+[2025-11-15 21:04:29] Proceso de login normal
+[2025-11-15 21:04:29] Usuario: admin, Password: PROVIDENCIADO
+[2025-11-15 21:04:29] Buscando usuario en BD: admin
+[2025-11-15 21:04:29] Resultado de usuario: Array
+(
+    [idUsuario] => 1
+    [nombre_usuario] => admin
+    [contrasena] => $2y$10$32rK3wE8JgA4wR1R3z4rK32PqH.Q.P.Q.Z.Q.P.Q.P.Q.
+    [rol] => Admin
+)
+
+[2025-11-15 21:04:29] Autenticación FALLIDA
+[2025-11-15 21:04:29] === FINALIZANDO LOGIC ===
+[2025-11-15 21:04:29] Show tasa dolar: NO
+[2025-11-15 21:04:29] Error: Nombre de usuario o contraseña incorrectos.
+[2025-11-15 21:04:39] === INICIANDO LOGIN.PHP ===
+[2025-11-15 21:04:39] SESSION: Array
+(
+)
+
+[2025-11-15 21:04:39] POST: Array
+(
+    [nombre_usuario] => moise
+    [password] => 123456
+)
+
+[2025-11-15 21:04:39] SERVER METHOD: POST
+[2025-11-15 21:04:39] Es formulario de tasa: NO
+[2025-11-15 21:04:39] === PROCESANDO POST ===
+[2025-11-15 21:04:39] Proceso de login normal
+[2025-11-15 21:04:39] Usuario: moise, Password: PROVIDENCIADO
+[2025-11-15 21:04:39] Buscando usuario en BD: moise
+[2025-11-15 21:04:39] Resultado de usuario: 
+[2025-11-15 21:04:39] Autenticación FALLIDA
+[2025-11-15 21:04:39] === FINALIZANDO LOGIC ===
+[2025-11-15 21:04:39] Show tasa dolar: NO
+[2025-11-15 21:04:39] Error: Nombre de usuario o contraseña incorrectos.
+[2025-11-15 21:10:41] === INICIANDO LOGIN.PHP ===
+[2025-11-15 21:10:41] SESSION: Array
+(
+    [recovery_data] => Array
+        (
+            [step] => 1
+            [usuario_id] => 
+            [pregunta] => 
+            [nombre_usuario] => 
+        )
+
+)
+
+[2025-11-15 21:10:41] POST: Array
+(
+)
+
+[2025-11-15 21:10:41] SERVER METHOD: GET
+[2025-11-15 21:10:41] Es formulario de tasa: NO
+[2025-11-15 21:10:41] === FINALIZANDO LOGIC ===
+[2025-11-15 21:10:41] Show tasa dolar: NO
+[2025-11-15 21:10:41] Error: 
+[2025-11-15 21:10:42] === INICIANDO LOGIN.PHP ===
+[2025-11-15 21:10:42] SESSION: Array
+(
+    [recovery_data] => Array
+        (
+            [step] => 1
+            [usuario_id] => 
+            [pregunta] => 
+            [nombre_usuario] => 
+        )
+
+)
+
+[2025-11-15 21:10:42] POST: Array
+(
+)
+
+[2025-11-15 21:10:42] SERVER METHOD: GET
+[2025-11-15 21:10:42] Es formulario de tasa: NO
+[2025-11-15 21:10:42] === FINALIZANDO LOGIC ===
+[2025-11-15 21:10:42] Show tasa dolar: NO
+[2025-11-15 21:10:42] Error: 
+[2025-11-15 21:10:45] === INICIANDO LOGIN.PHP ===
+[2025-11-15 21:10:45] SESSION: Array
+(
+    [recovery_data] => Array
+        (
+            [step] => 1
+            [usuario_id] => 
+            [pregunta] => 
+            [nombre_usuario] => 
+        )
+
+)
+
+[2025-11-15 21:10:45] POST: Array
+(
+    [nombre_usuario] => admin
+    [password] => 123456
+)
+
+[2025-11-15 21:10:45] SERVER METHOD: POST
+[2025-11-15 21:10:45] Es formulario de tasa: NO
+[2025-11-15 21:10:45] === PROCESANDO POST ===
+[2025-11-15 21:10:45] Proceso de login normal
+[2025-11-15 21:10:45] Usuario: admin, Password: PROVIDENCIADO
+[2025-11-15 21:10:45] Buscando usuario en BD: admin
+[2025-11-15 21:10:45] Resultado de usuario: Array
+(
+    [idUsuario] => 1
+    [nombre_usuario] => admin
+    [contrasena] => $2y$10$Cf6terUOUJo/zxcmx4vHU.MmPnGvdPWTFHnsnneUY.pkaRsPfawda
+    [rol] => Admin
+)
+
+[2025-11-15 21:10:45] Autenticación EXITOSA
+[2025-11-15 21:10:45] Sesión iniciada: UserID: 1, Rol: Admin
+[2025-11-15 21:10:45] === GETTASAACTUAL ===
+[2025-11-15 21:10:45] Resultado de tasa actual: Array
+(
+    [valor_dolar] => 300.00
+)
+
+[2025-11-15 21:10:45] Tasa en sesión: 300.00
+[2025-11-15 21:10:45] === GETTASAACTUAL ===
+[2025-11-15 21:10:45] Resultado de tasa actual: Array
+(
+    [valor_dolar] => 300.00
+)
+
+[2025-11-15 21:10:45] Es Admin, mostrando formulario de tasa
+[2025-11-15 21:10:45] === GETTASAACTUAL ===
+[2025-11-15 21:10:45] Resultado de tasa actual: Array
+(
+    [valor_dolar] => 300.00
+)
+
+[2025-11-15 21:10:45] Tasa actual para mostrar: 300.00
+[2025-11-15 21:10:45] === FINALIZANDO LOGIC ===
+[2025-11-15 21:10:45] Show tasa dolar: SI
+[2025-11-15 21:10:45] Error: 
+[2025-11-15 21:10:57] === INICIANDO LOGIN.PHP ===
+[2025-11-15 21:10:57] SESSION: Array
+(
+    [recovery_data] => Array
+        (
+            [step] => 1
+            [usuario_id] => 
+            [pregunta] => 
+            [nombre_usuario] => 
+        )
+
+    [user_id] => 1
+    [user_name] => admin
+    [role] => Admin
+    [tasa_dolar] => 300.00
+)
+
+[2025-11-15 21:10:57] POST: Array
+(
+    [tasa_dolar] => 300
+    [tasa_action] => keep
+)
+
+[2025-11-15 21:10:57] SERVER METHOD: POST
+[2025-11-15 21:10:57] Es formulario de tasa: SI
+[2025-11-15 21:10:57] === PROCESANDO POST ===
+[2025-11-15 21:10:57] Formulario de tasa detectado
+[2025-11-15 21:10:57] Tasa action: keep
+[2025-11-15 21:10:57] Mantener tasa actual seleccionado
+[2025-11-15 21:10:57] Redirigiendo después de mantener tasa...
+[2025-11-15 21:10:57] Redirigiendo por rol: Admin
+[2025-11-20 23:36:39] === INICIANDO LOGIN.PHP ===
+[2025-11-20 23:36:39] SESSION: Array
+(
+    [user_id] => 1
+    [username] => admin
+    [rol] => admin
+    [relacion_id] => 
+    [nombre] => Usuario
+)
+
+[2025-11-20 23:36:39] POST: Array
+(
+)
+
+[2025-11-20 23:36:39] SERVER METHOD: GET
+[2025-11-20 23:36:39] Es formulario de tasa: NO
+[2025-11-20 23:36:39] === FINALIZANDO LOGIC ===
+[2025-11-20 23:36:39] Show tasa dolar: NO
+[2025-11-20 23:36:39] Error: 
+[2025-11-20 23:36:47] === INICIANDO LOGIN.PHP ===
+[2025-11-20 23:36:47] SESSION: Array
+(
+    [user_id] => 1
+    [username] => admin
+    [rol] => admin
+    [relacion_id] => 
+    [nombre] => Usuario
+)
+
+[2025-11-20 23:36:47] POST: Array
+(
+    [nombre_usuario] => admina
+    [password] => 12345
+)
+
+[2025-11-20 23:36:47] SERVER METHOD: POST
+[2025-11-20 23:36:47] Es formulario de tasa: NO
+[2025-11-20 23:36:47] === PROCESANDO POST ===
+[2025-11-20 23:36:47] Proceso de login normal
+[2025-11-20 23:36:47] Usuario: admina, Password: PROVIDENCIADO
+[2025-11-20 23:36:47] Buscando usuario en BD: admina
+[2025-11-20 23:36:47] Resultado de usuario: 
+[2025-11-20 23:36:47] Autenticación FALLIDA
+[2025-11-20 23:36:47] === FINALIZANDO LOGIC ===
+[2025-11-20 23:36:47] Show tasa dolar: NO
+[2025-11-20 23:36:47] Error: Nombre de usuario o contraseña incorrectos.
+[2025-11-20 23:36:50] === INICIANDO LOGIN.PHP ===
+[2025-11-20 23:36:50] SESSION: Array
+(
+    [user_id] => 1
+    [username] => admin
+    [rol] => admin
+    [relacion_id] => 
+    [nombre] => Usuario
+)
+
+[2025-11-20 23:36:50] POST: Array
+(
+    [nombre_usuario] => admina
+    [password] => 123456
+)
+
+[2025-11-20 23:36:50] SERVER METHOD: POST
+[2025-11-20 23:36:50] Es formulario de tasa: NO
+[2025-11-20 23:36:50] === PROCESANDO POST ===
+[2025-11-20 23:36:50] Proceso de login normal
+[2025-11-20 23:36:50] Usuario: admina, Password: PROVIDENCIADO
+[2025-11-20 23:36:50] Buscando usuario en BD: admina
+[2025-11-20 23:36:50] Resultado de usuario: 
+[2025-11-20 23:36:50] Autenticación FALLIDA
+[2025-11-20 23:36:50] === FINALIZANDO LOGIC ===
+[2025-11-20 23:36:50] Show tasa dolar: NO
+[2025-11-20 23:36:50] Error: Nombre de usuario o contraseña incorrectos.
+[2025-11-20 23:36:53] === INICIANDO LOGIN.PHP ===
+[2025-11-20 23:36:53] SESSION: Array
+(
+    [user_id] => 1
+    [username] => admin
+    [rol] => admin
+    [relacion_id] => 
+    [nombre] => Usuario
+)
+
+[2025-11-20 23:36:53] POST: Array
+(
+    [nombre_usuario] => moise
+    [password] => 123456
+)
+
+[2025-11-20 23:36:53] SERVER METHOD: POST
+[2025-11-20 23:36:53] Es formulario de tasa: NO
+[2025-11-20 23:36:53] === PROCESANDO POST ===
+[2025-11-20 23:36:53] Proceso de login normal
+[2025-11-20 23:36:53] Usuario: moise, Password: PROVIDENCIADO
+[2025-11-20 23:36:53] Buscando usuario en BD: moise
+[2025-11-20 23:36:53] Resultado de usuario: Array
+(
+    [idUsuario] => 7
+    [nombre_usuario] => moise
+    [contrasena] => $2y$10$4OaRf822YU.EifHjoN6UEeFvMF79Powq6nufhVBsmhpYpb8kScURi
+    [rol] => Admin
+)
+
+[2025-11-20 23:36:54] Autenticación FALLIDA
+[2025-11-20 23:36:54] === FINALIZANDO LOGIC ===
+[2025-11-20 23:36:54] Show tasa dolar: NO
+[2025-11-20 23:36:54] Error: Nombre de usuario o contraseña incorrectos.
+[2025-11-20 23:36:56] === INICIANDO LOGIN.PHP ===
+[2025-11-20 23:36:56] SESSION: Array
+(
+    [user_id] => 1
+    [username] => admin
+    [rol] => admin
+    [relacion_id] => 
+    [nombre] => Usuario
+)
+
+[2025-11-20 23:36:56] POST: Array
+(
+    [nombre_usuario] => moise
+    [password] => 123}
+)
+
+[2025-11-20 23:36:56] SERVER METHOD: POST
+[2025-11-20 23:36:56] Es formulario de tasa: NO
+[2025-11-20 23:36:56] === PROCESANDO POST ===
+[2025-11-20 23:36:56] Proceso de login normal
+[2025-11-20 23:36:56] Usuario: moise, Password: PROVIDENCIADO
+[2025-11-20 23:36:56] Buscando usuario en BD: moise
+[2025-11-20 23:36:56] Resultado de usuario: Array
+(
+    [idUsuario] => 7
+    [nombre_usuario] => moise
+    [contrasena] => $2y$10$4OaRf822YU.EifHjoN6UEeFvMF79Powq6nufhVBsmhpYpb8kScURi
+    [rol] => Admin
+)
+
+[2025-11-20 23:36:56] Autenticación FALLIDA
+[2025-11-20 23:36:56] === FINALIZANDO LOGIC ===
+[2025-11-20 23:36:56] Show tasa dolar: NO
+[2025-11-20 23:36:56] Error: Nombre de usuario o contraseña incorrectos.
+[2025-11-20 23:37:16] === INICIANDO LOGIN.PHP ===
+[2025-11-20 23:37:16] SESSION: Array
+(
+    [user_id] => 1
+    [username] => admin
+    [rol] => admin
+    [relacion_id] => 
+    [nombre] => Usuario
+)
+
+[2025-11-20 23:37:16] POST: Array
+(
+)
+
+[2025-11-20 23:37:16] SERVER METHOD: GET
+[2025-11-20 23:37:16] Es formulario de tasa: NO
+[2025-11-20 23:37:16] === FINALIZANDO LOGIC ===
+[2025-11-20 23:37:16] Show tasa dolar: NO
+[2025-11-20 23:37:16] Error: 
+[2025-11-20 23:37:20] === INICIANDO LOGIN.PHP ===
+[2025-11-20 23:37:20] SESSION: Array
+(
+    [user_id] => 1
+    [username] => admin
+    [rol] => admin
+    [relacion_id] => 
+    [nombre] => Usuario
+)
+
+[2025-11-20 23:37:20] POST: Array
+(
+    [nombre_usuario] => admin
+    [password] => 123456
+)
+
+[2025-11-20 23:37:20] SERVER METHOD: POST
+[2025-11-20 23:37:20] Es formulario de tasa: NO
+[2025-11-20 23:37:20] === PROCESANDO POST ===
+[2025-11-20 23:37:20] Proceso de login normal
+[2025-11-20 23:37:20] Usuario: admin, Password: PROVIDENCIADO
+[2025-11-20 23:37:20] Buscando usuario en BD: admin
+[2025-11-20 23:37:20] Resultado de usuario: Array
+(
+    [idUsuario] => 1
+    [nombre_usuario] => admin
+    [contrasena] => $2y$10$Zjld1rXycQ8KaAgjhG0wnO8TE5Jo4TUAEdxrehV6zQbs4E0G4MnLO
+    [rol] => Admin
+)
+
+[2025-11-20 23:37:20] Autenticación EXITOSA
+[2025-11-20 23:37:20] Sesión iniciada: UserID: 1, Rol: Admin
+[2025-11-20 23:37:20] === GETTASAACTUAL ===
+[2025-11-20 23:37:20] Resultado de tasa actual: Array
+(
+    [valor_dolar] => 35.50
+)
+
+[2025-11-20 23:37:20] Tasa en sesión: 35.50
+[2025-11-20 23:37:20] === GETTASAACTUAL ===
+[2025-11-20 23:37:20] Resultado de tasa actual: Array
+(
+    [valor_dolar] => 35.50
+)
+
+[2025-11-20 23:37:20] Es Admin, mostrando formulario de tasa
+[2025-11-20 23:37:20] === GETTASAACTUAL ===
+[2025-11-20 23:37:20] Resultado de tasa actual: Array
+(
+    [valor_dolar] => 35.50
+)
+
+[2025-11-20 23:37:20] Tasa actual para mostrar: 35.50
+[2025-11-20 23:37:20] === FINALIZANDO LOGIC ===
+[2025-11-20 23:37:20] Show tasa dolar: SI
+[2025-11-20 23:37:20] Error: 
+[2025-11-20 23:37:28] === INICIANDO LOGIN.PHP ===
+[2025-11-20 23:37:28] SESSION: Array
+(
+    [user_id] => 1
+    [username] => admin
+    [rol] => admin
+    [relacion_id] => 
+    [nombre] => Usuario
+    [user_name] => admin
+    [role] => Admin
+    [tasa_dolar] => 35.50
+)
+
+[2025-11-20 23:37:28] POST: Array
+(
+    [tasa_dolar] => 5
+    [tasa_action] => update
+)
+
+[2025-11-20 23:37:28] SERVER METHOD: POST
+[2025-11-20 23:37:28] Es formulario de tasa: SI
+[2025-11-20 23:37:28] === PROCESANDO POST ===
+[2025-11-20 23:37:28] Formulario de tasa detectado
+[2025-11-20 23:37:28] Tasa action: update
+[2025-11-20 23:37:28] Tasa dólar recibida: 5
+[2025-11-20 23:37:28] Intentando guardar tasa: 5 por usuario: 1
+[2025-11-20 23:37:28] === GUARDARTASADOLAR ===
+[2025-11-20 23:37:28] Valor dólar: 5, Usuario ID: 1
+[2025-11-20 23:37:28] Transacción iniciada
+[2025-11-20 23:37:28] Desactivar tasas anteriores: ÉXITO
+[2025-11-20 23:37:28] Filas afectadas: 1
+[2025-11-20 23:37:28] Insertar nueva tasa: ÉXITO
+[2025-11-20 23:37:28] ID insertado: 4
+[2025-11-20 23:37:28] Actualizar configuraciones: ÉXITO
+[2025-11-20 23:37:28] Filas afectadas en configuraciones: 0
+[2025-11-20 23:37:28] Ejecutando procedimiento almacenado...
+[2025-11-20 23:37:28] Procedimiento almacenado: ÉXITO
+[2025-11-20 23:37:35] === INICIANDO LOGIN.PHP ===
+[2025-11-20 23:37:35] SESSION: Array
+(
+    [user_id] => 1
+    [username] => admin
+    [rol] => admin
+    [relacion_id] => 
+    [nombre] => Usuario
+    [user_name] => admin
+    [role] => Admin
+    [tasa_dolar] => 35.50
+)
+
+[2025-11-20 23:37:35] POST: Array
+(
+    [nombre_usuario] => admin
+    [password] => 123456
+)
+
+[2025-11-20 23:37:35] SERVER METHOD: POST
+[2025-11-20 23:37:35] Es formulario de tasa: NO
+[2025-11-20 23:37:35] Usuario ya en sesión y NO es formulario de tasa, redirigiendo...
+[2025-11-20 23:38:59] === INICIANDO LOGIN.PHP ===
+[2025-11-20 23:38:59] SESSION: Array
+(
+    [user_id] => 1
+    [username] => admin
+    [rol] => admin
+    [relacion_id] => 
+    [nombre] => Usuario
+    [user_name] => admin
+    [role] => Admin
+    [tasa_dolar] => 35.50
+    [sidebar_collapsed] => 
+)
+
+[2025-11-20 23:38:59] POST: Array
+(
+)
+
+[2025-11-20 23:38:59] SERVER METHOD: GET
+[2025-11-20 23:38:59] Es formulario de tasa: NO
+[2025-11-20 23:38:59] Usuario ya en sesión y NO es formulario de tasa, redirigiendo...
+[2025-11-20 23:39:03] === INICIANDO LOGIN.PHP ===
+[2025-11-20 23:39:03] SESSION: Array
+(
+    [user_id] => 1
+    [username] => admin
+    [rol] => admin
+    [relacion_id] => 
+    [nombre] => Usuario
+    [user_name] => admin
+    [role] => Admin
+    [tasa_dolar] => 35.50
+    [sidebar_collapsed] => 
+    [recovery_data] => Array
+        (
+            [step] => 1
+            [usuario_id] => 
+            [pregunta] => 
+            [nombre_usuario] => 
+        )
+
+)
+
+[2025-11-20 23:39:03] POST: Array
+(
+)
+
+[2025-11-20 23:39:03] SERVER METHOD: GET
+[2025-11-20 23:39:03] Es formulario de tasa: NO
+[2025-11-20 23:39:03] Usuario ya en sesión y NO es formulario de tasa, redirigiendo...
+[2025-11-21 02:15:30] === INICIANDO LOGIN.PHP ===
+[2025-11-21 02:15:30] SESSION: Array
+(
+    [user_id] => 1
+    [username] => admin
+    [rol] => admin
+    [relacion_id] => 
+    [nombre] => Usuario
+)
+
+[2025-11-21 02:15:30] POST: Array
+(
+)
+
+[2025-11-21 02:15:30] SERVER METHOD: GET
+[2025-11-21 02:15:30] Es formulario de tasa: NO
+[2025-11-21 02:15:30] === FINALIZANDO LOGIC ===
+[2025-11-21 02:15:30] Show tasa dolar: NO
+[2025-11-21 02:15:30] Error: 
+[2025-11-21 02:15:38] === INICIANDO LOGIN.PHP ===
+[2025-11-21 02:15:38] SESSION: Array
+(
+    [user_id] => 1
+    [username] => admin
+    [rol] => admin
+    [relacion_id] => 
+    [nombre] => Usuario
+)
+
+[2025-11-21 02:15:38] POST: Array
+(
+    [nombre_usuario] => admin
+    [password] => 123456789
+)
+
+[2025-11-21 02:15:38] SERVER METHOD: POST
+[2025-11-21 02:15:38] Es formulario de tasa: NO
+[2025-11-21 02:15:38] === PROCESANDO POST ===
+[2025-11-21 02:15:38] Proceso de login normal
+[2025-11-21 02:15:38] Usuario: admin, Password: PROVIDENCIADO
+[2025-11-21 02:15:38] Buscando usuario en BD: admin
+[2025-11-21 02:15:38] Resultado de usuario: Array
+(
+    [idUsuario] => 6
+    [nombre_usuario] => admin
+    [contrasena] => $2y$10$N/pmLsM5bk5YNH9zRiSt8e0thmQU4LoNbgiV40Mg3UYlNVMcxXaOW
+    [rol] => Admin
+)
+
+[2025-11-21 02:15:38] Autenticación FALLIDA
+[2025-11-21 02:15:38] === FINALIZANDO LOGIC ===
+[2025-11-21 02:15:38] Show tasa dolar: NO
+[2025-11-21 02:15:38] Error: Nombre de usuario o contraseña incorrectos.
+[2025-11-21 02:15:42] === INICIANDO LOGIN.PHP ===
+[2025-11-21 02:15:42] SESSION: Array
+(
+    [user_id] => 1
+    [username] => admin
+    [rol] => admin
+    [relacion_id] => 
+    [nombre] => Usuario
+)
+
+[2025-11-21 02:15:42] POST: Array
+(
+    [nombre_usuario] => admin
+    [password] => 123456
+)
+
+[2025-11-21 02:15:42] SERVER METHOD: POST
+[2025-11-21 02:15:42] Es formulario de tasa: NO
+[2025-11-21 02:15:42] === PROCESANDO POST ===
+[2025-11-21 02:15:42] Proceso de login normal
+[2025-11-21 02:15:42] Usuario: admin, Password: PROVIDENCIADO
+[2025-11-21 02:15:42] Buscando usuario en BD: admin
+[2025-11-21 02:15:42] Resultado de usuario: Array
+(
+    [idUsuario] => 6
+    [nombre_usuario] => admin
+    [contrasena] => $2y$10$N/pmLsM5bk5YNH9zRiSt8e0thmQU4LoNbgiV40Mg3UYlNVMcxXaOW
+    [rol] => Admin
+)
+
+[2025-11-21 02:15:42] Autenticación EXITOSA
+[2025-11-21 02:15:42] Sesión iniciada: UserID: 6, Rol: Admin
+[2025-11-21 02:15:42] === GETTASAACTUAL ===
+[2025-11-21 02:15:42] Error PDO: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_pedidos.tasa_dolar' doesn't exist
+[2025-11-21 02:15:42] Mostrando formulario de tasa para Admin en sesión
+[2025-11-21 02:15:42] === GETTASAACTUAL ===
+[2025-11-21 02:16:58] === INICIANDO LOGIN.PHP ===
+[2025-11-21 02:16:58] SESSION: Array
+(
+    [user_id] => 6
+    [username] => admin
+    [rol] => admin
+    [relacion_id] => 
+    [nombre] => Usuario
+    [user_name] => admin
+    [role] => Admin
+)
+
+[2025-11-21 02:16:58] POST: Array
+(
+    [nombre_usuario] => admin
+    [password] => 123456789
+)
+
+[2025-11-21 02:16:58] SERVER METHOD: POST
+[2025-11-21 02:16:58] Es formulario de tasa: NO
+[2025-11-21 02:16:58] Usuario ya en sesión y NO es formulario de tasa, redirigiendo...
+[2025-11-21 02:19:14] === INICIANDO LOGIN.PHP ===
+[2025-11-21 02:19:14] SESSION: Array
+(
+    [user_id] => 6
+    [username] => admin
+    [rol] => admin
+    [relacion_id] => 
+    [nombre] => Usuario
+    [user_name] => admin
+    [role] => Admin
+    [sidebar_collapsed] => 
+)
+
+[2025-11-21 02:19:14] POST: Array
+(
+)
+
+[2025-11-21 02:19:14] SERVER METHOD: GET
+[2025-11-21 02:19:14] Es formulario de tasa: NO
+[2025-11-21 02:19:14] Usuario ya en sesión y NO es formulario de tasa, redirigiendo...
+[2025-11-21 12:18:15] === INICIANDO LOGIN.PHP ===
+[2025-11-21 12:18:15] SESSION: Array
+(
+)
+
+[2025-11-21 12:18:15] POST: Array
+(
+)
+
+[2025-11-21 12:18:15] SERVER METHOD: GET
+[2025-11-21 12:18:15] Es formulario de tasa: NO
+[2025-11-21 12:18:15] === FINALIZANDO LOGIC ===
+[2025-11-21 12:18:15] Show tasa dolar: NO
+[2025-11-21 12:18:15] Error: 
+[2025-11-21 12:18:21] === INICIANDO LOGIN.PHP ===
+[2025-11-21 12:18:21] SESSION: Array
+(
+)
+
+[2025-11-21 12:18:21] POST: Array
+(
+    [nombre_usuario] => admin
+    [password] => 123456789
+)
+
+[2025-11-21 12:18:21] SERVER METHOD: POST
+[2025-11-21 12:18:21] Es formulario de tasa: NO
+[2025-11-21 12:18:21] === PROCESANDO POST ===
+[2025-11-21 12:18:21] Proceso de login normal
+[2025-11-21 12:18:21] Usuario: admin, Password: PROVIDENCIADO
+[2025-11-21 12:18:21] Buscando usuario en BD: admin
+[2025-11-21 12:18:21] Resultado de usuario: Array
+(
+    [idUsuario] => 6
+    [nombre_usuario] => admin
+    [contrasena] => $2y$10$N/pmLsM5bk5YNH9zRiSt8e0thmQU4LoNbgiV40Mg3UYlNVMcxXaOW
+    [rol] => Admin
+)
+
+[2025-11-21 12:18:21] Autenticación FALLIDA
+[2025-11-21 12:18:21] === FINALIZANDO LOGIC ===
+[2025-11-21 12:18:21] Show tasa dolar: NO
+[2025-11-21 12:18:21] Error: Nombre de usuario o contraseña incorrectos.
+[2025-11-21 12:18:28] === INICIANDO LOGIN.PHP ===
+[2025-11-21 12:18:28] SESSION: Array
+(
+)
+
+[2025-11-21 12:18:28] POST: Array
+(
+    [nombre_usuario] => admin
+    [password] => 123456
+)
+
+[2025-11-21 12:18:28] SERVER METHOD: POST
+[2025-11-21 12:18:28] Es formulario de tasa: NO
+[2025-11-21 12:18:28] === PROCESANDO POST ===
+[2025-11-21 12:18:28] Proceso de login normal
+[2025-11-21 12:18:28] Usuario: admin, Password: PROVIDENCIADO
+[2025-11-21 12:18:28] Buscando usuario en BD: admin
+[2025-11-21 12:18:28] Resultado de usuario: Array
+(
+    [idUsuario] => 6
+    [nombre_usuario] => admin
+    [contrasena] => $2y$10$N/pmLsM5bk5YNH9zRiSt8e0thmQU4LoNbgiV40Mg3UYlNVMcxXaOW
+    [rol] => Admin
+)
+
+[2025-11-21 12:18:28] Autenticación EXITOSA
+[2025-11-21 12:18:28] Sesión iniciada: UserID: 6, Rol: Admin
+[2025-11-21 12:18:28] === GETTASAACTUAL ===
+[2025-11-21 12:18:28] Error PDO: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_pedidos.tasa_dolar' doesn't exist
+[2025-11-21 12:18:28] Mostrando formulario de tasa para Admin en sesión
+[2025-11-21 12:18:28] === GETTASAACTUAL ===
+[2025-11-21 12:21:37] === INICIANDO LOGIN.PHP ===
+[2025-11-21 12:21:37] SESSION: Array
+(
+    [user_id] => 1
+    [user_name] => admin
+    [role] => Admin
+    [username] => .
+    [rol] => admin
+    [relacion_id] => 
+    [nombre] => Usuario
+)
+
+[2025-11-21 12:21:37] POST: Array
+(
+)
+
+[2025-11-21 12:21:37] SERVER METHOD: GET
+[2025-11-21 12:21:37] Es formulario de tasa: NO
+[2025-11-21 12:21:37] Usuario ya en sesión y NO es formulario de tasa, redirigiendo...
+[2025-11-21 12:21:38] === INICIANDO LOGIN.PHP ===
+[2025-11-21 12:21:38] SESSION: Array
+(
+)
+
+[2025-11-21 12:21:38] POST: Array
+(
+)
+
+[2025-11-21 12:21:38] SERVER METHOD: GET
+[2025-11-21 12:21:38] Es formulario de tasa: NO
+[2025-11-21 12:21:38] === FINALIZANDO LOGIC ===
+[2025-11-21 12:21:38] Show tasa dolar: NO
+[2025-11-21 12:21:38] Error: 
+[2025-11-21 12:21:45] === INICIANDO LOGIN.PHP ===
+[2025-11-21 12:21:45] SESSION: Array
+(
+)
+
+[2025-11-21 12:21:45] POST: Array
+(
+    [nombre_usuario] => admin
+    [password] => 123456
+)
+
+[2025-11-21 12:21:45] SERVER METHOD: POST
+[2025-11-21 12:21:45] Es formulario de tasa: NO
+[2025-11-21 12:21:45] === PROCESANDO POST ===
+[2025-11-21 12:21:45] Proceso de login normal
+[2025-11-21 12:21:45] Usuario: admin, Password: PROVIDENCIADO
+[2025-11-21 12:21:45] Buscando usuario en BD: admin
+[2025-11-21 12:21:45] Resultado de usuario: Array
+(
+    [idUsuario] => 6
+    [nombre_usuario] => admin
+    [contrasena] => $2y$10$N/pmLsM5bk5YNH9zRiSt8e0thmQU4LoNbgiV40Mg3UYlNVMcxXaOW
+    [rol] => Admin
+)
+
+[2025-11-21 12:21:45] Autenticación EXITOSA
+[2025-11-21 12:21:45] Sesión iniciada: UserID: 6, Rol: Admin
+[2025-11-21 12:21:45] === GETTASAACTUAL ===
+[2025-11-21 12:21:45] Resultado de tasa actual: 
+[2025-11-21 12:21:45] === GETTASAACTUAL ===
+[2025-11-21 12:21:45] Resultado de tasa actual: 
+[2025-11-21 12:21:45] Es Admin, mostrando formulario de tasa
+[2025-11-21 12:21:45] === GETTASAACTUAL ===
+[2025-11-21 12:21:45] Resultado de tasa actual: 
+[2025-11-21 12:21:45] Tasa actual para mostrar: 
+[2025-11-21 12:21:45] === FINALIZANDO LOGIC ===
+[2025-11-21 12:21:45] Show tasa dolar: SI
+[2025-11-21 12:21:45] Error: 
+[2025-11-21 12:22:01] === INICIANDO LOGIN.PHP ===
+[2025-11-21 12:22:01] SESSION: Array
+(
+    [user_id] => 6
+    [user_name] => admin
+    [role] => Admin
+)
+
+[2025-11-21 12:22:01] POST: Array
+(
+    [tasa_dolar] => 15
+    [tasa_action] => update
+)
+
+[2025-11-21 12:22:01] SERVER METHOD: POST
+[2025-11-21 12:22:01] Es formulario de tasa: SI
+[2025-11-21 12:22:01] === PROCESANDO POST ===
+[2025-11-21 12:22:01] Formulario de tasa detectado
+[2025-11-21 12:22:01] Tasa action: update
+[2025-11-21 12:22:01] Tasa dólar recibida: 15
+[2025-11-21 12:22:01] Intentando guardar tasa: 15 por usuario: 6
+[2025-11-21 12:22:01] === GUARDARTASADOLAR ===
+[2025-11-21 12:22:01] Valor dólar: 15, Usuario ID: 6
+[2025-11-21 12:22:01] Transacción iniciada
+[2025-11-21 12:22:01] Desactivar tasas anteriores: ÉXITO
+[2025-11-21 12:22:01] Filas afectadas: 0
+[2025-11-21 12:22:01] Insertar nueva tasa: ÉXITO
+[2025-11-21 12:22:01] ID insertado: 1
+[2025-11-21 12:22:01] ERROR en transacción: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_pedidos.configuraciones' doesn't exist
+[2025-11-21 12:22:01] Trace: #0 C:\xampp\htdocs\sistema_pedidos\auth\login.php(73): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\sistema_pedidos\auth\login.php(134): guardarTasaDolar(Object(PDO), 15.0, 6)
+#2 {main}
+[2025-11-21 12:22:01] Fallo en guardarTasaDolar
+[2025-11-21 12:22:01] === GETTASAACTUAL ===
+[2025-11-21 12:22:01] Resultado de tasa actual: 
+[2025-11-21 12:22:01] Tasa actual para mostrar: 
+[2025-11-21 12:22:01] === FINALIZANDO LOGIC ===
+[2025-11-21 12:22:01] Show tasa dolar: SI
+[2025-11-21 12:22:01] Error: Error al guardar la tasa en la base de datos. Verifica los logs.
+[2025-11-21 12:22:16] === INICIANDO LOGIN.PHP ===
+[2025-11-21 12:22:16] SESSION: Array
+(
+    [user_id] => 6
+    [user_name] => admin
+    [role] => Admin
+)
+
+[2025-11-21 12:22:16] POST: Array
+(
+    [tasa_dolar] => 40
+    [tasa_action] => update
+)
+
+[2025-11-21 12:22:16] SERVER METHOD: POST
+[2025-11-21 12:22:16] Es formulario de tasa: SI
+[2025-11-21 12:22:16] === PROCESANDO POST ===
+[2025-11-21 12:22:16] Formulario de tasa detectado
+[2025-11-21 12:22:16] Tasa action: update
+[2025-11-21 12:22:16] Tasa dólar recibida: 40
+[2025-11-21 12:22:16] Intentando guardar tasa: 40 por usuario: 6
+[2025-11-21 12:22:16] === GUARDARTASADOLAR ===
+[2025-11-21 12:22:16] Valor dólar: 40, Usuario ID: 6
+[2025-11-21 12:22:16] Transacción iniciada
+[2025-11-21 12:22:16] Desactivar tasas anteriores: ÉXITO
+[2025-11-21 12:22:16] Filas afectadas: 0
+[2025-11-21 12:22:16] Insertar nueva tasa: ÉXITO
+[2025-11-21 12:22:16] ID insertado: 2
+[2025-11-21 12:22:16] ERROR en transacción: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_pedidos.configuraciones' doesn't exist
+[2025-11-21 12:22:16] Trace: #0 C:\xampp\htdocs\sistema_pedidos\auth\login.php(73): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\sistema_pedidos\auth\login.php(134): guardarTasaDolar(Object(PDO), 40.0, 6)
+#2 {main}
+[2025-11-21 12:22:16] Fallo en guardarTasaDolar
+[2025-11-21 12:22:16] === GETTASAACTUAL ===
+[2025-11-21 12:22:16] Resultado de tasa actual: 
+[2025-11-21 12:22:16] Tasa actual para mostrar: 
+[2025-11-21 12:22:16] === FINALIZANDO LOGIC ===
+[2025-11-21 12:22:16] Show tasa dolar: SI
+[2025-11-21 12:22:16] Error: Error al guardar la tasa en la base de datos. Verifica los logs.
+[2025-11-21 12:25:00] === INICIANDO LOGIN.PHP ===
+[2025-11-21 12:25:00] SESSION: Array
+(
+    [user_id] => 6
+    [user_name] => admin
+    [role] => Admin
+)
+
+[2025-11-21 12:25:00] POST: Array
+(
+    [tasa_dolar] => 50
+    [tasa_action] => update
+)
+
+[2025-11-21 12:25:00] SERVER METHOD: POST
+[2025-11-21 12:25:00] Es formulario de tasa: SI
+[2025-11-21 12:25:00] === PROCESANDO POST ===
+[2025-11-21 12:25:00] Formulario de tasa detectado
+[2025-11-21 12:25:00] Tasa action: update
+[2025-11-21 12:25:00] Tasa dólar recibida: 50
+[2025-11-21 12:25:00] Intentando guardar tasa: 50 por usuario: 6
+[2025-11-21 12:25:00] === GUARDARTASADOLAR ===
+[2025-11-21 12:25:00] Valor dólar: 50, Usuario ID: 6
+[2025-11-21 12:25:00] Transacción iniciada
+[2025-11-21 12:25:00] Desactivar tasas anteriores: ÉXITO
+[2025-11-21 12:25:00] Filas afectadas: 0
+[2025-11-21 12:25:00] Insertar nueva tasa: ÉXITO
+[2025-11-21 12:25:00] ID insertado: 3
+[2025-11-21 12:25:00] Ejecutando procedimiento almacenado...
+[2025-11-21 12:25:00] ERROR en transacción: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_pedidos.ingredientes' doesn't exist
+[2025-11-21 12:25:00] Trace: #0 C:\xampp\htdocs\sistema_pedidos\auth\login.php(75): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\sistema_pedidos\auth\login.php(129): guardarTasaDolar(Object(PDO), 50.0, 6)
+#2 {main}
+[2025-11-21 12:25:00] Fallo en guardarTasaDolar
+[2025-11-21 12:25:00] === GETTASAACTUAL ===
+[2025-11-21 12:25:00] Resultado de tasa actual: Array
+(
+    [valor_dolar] => 50.0000
+)
+
+[2025-11-21 12:25:00] Tasa actual para mostrar: 50.0000
+[2025-11-21 12:25:00] === FINALIZANDO LOGIC ===
+[2025-11-21 12:25:00] Show tasa dolar: SI
+[2025-11-21 12:25:00] Error: Error al guardar la tasa en la base de datos. Verifica los logs.
+[2025-11-21 12:25:11] === INICIANDO LOGIN.PHP ===
+[2025-11-21 12:25:11] SESSION: Array
+(
+    [user_id] => 6
+    [user_name] => admin
+    [role] => Admin
+)
+
+[2025-11-21 12:25:11] POST: Array
+(
+    [tasa_dolar] => 60
+    [tasa_action] => update
+)
+
+[2025-11-21 12:25:11] SERVER METHOD: POST
+[2025-11-21 12:25:11] Es formulario de tasa: SI
+[2025-11-21 12:25:11] === PROCESANDO POST ===
+[2025-11-21 12:25:11] Formulario de tasa detectado
+[2025-11-21 12:25:11] Tasa action: update
+[2025-11-21 12:25:11] Tasa dólar recibida: 60
+[2025-11-21 12:25:11] Intentando guardar tasa: 60 por usuario: 6
+[2025-11-21 12:25:11] === GUARDARTASADOLAR ===
+[2025-11-21 12:25:11] Valor dólar: 60, Usuario ID: 6
+[2025-11-21 12:25:11] Transacción iniciada
+[2025-11-21 12:25:11] Desactivar tasas anteriores: ÉXITO
+[2025-11-21 12:25:11] Filas afectadas: 1
+[2025-11-21 12:25:11] Insertar nueva tasa: ÉXITO
+[2025-11-21 12:25:11] ID insertado: 5
+[2025-11-21 12:25:11] Ejecutando procedimiento almacenado...
+[2025-11-21 12:25:11] ERROR en transacción: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_pedidos.ingredientes' doesn't exist
+[2025-11-21 12:25:11] Trace: #0 C:\xampp\htdocs\sistema_pedidos\auth\login.php(75): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\sistema_pedidos\auth\login.php(129): guardarTasaDolar(Object(PDO), 60.0, 6)
+#2 {main}
+[2025-11-21 12:25:11] Fallo en guardarTasaDolar
+[2025-11-21 12:25:11] === GETTASAACTUAL ===
+[2025-11-21 12:25:11] Resultado de tasa actual: Array
+(
+    [valor_dolar] => 60.0000
+)
+
+[2025-11-21 12:25:11] Tasa actual para mostrar: 60.0000
+[2025-11-21 12:25:11] === FINALIZANDO LOGIC ===
+[2025-11-21 12:25:11] Show tasa dolar: SI
+[2025-11-21 12:25:11] Error: Error al guardar la tasa en la base de datos. Verifica los logs.
+[2025-11-21 12:26:49] === INICIANDO LOGIN.PHP ===
+[2025-11-21 12:26:49] SESSION: Array
+(
+    [user_id] => 6
+    [user_name] => admin
+    [role] => Admin
+)
+
+[2025-11-21 12:26:49] POST: Array
+(
+    [tasa_dolar] => 60
+    [tasa_action] => update
+)
+
+[2025-11-21 12:26:49] SERVER METHOD: POST
+[2025-11-21 12:26:49] Es formulario de tasa: SI
+[2025-11-21 12:26:49] === PROCESANDO POST ===
+[2025-11-21 12:26:49] Formulario de tasa detectado
+[2025-11-21 12:26:49] Tasa action: update
+[2025-11-21 12:26:49] Tasa dólar recibida: 60
+[2025-11-21 12:26:49] Intentando guardar tasa: 60 por usuario: 6
+[2025-11-21 12:26:49] === GUARDARTASADOLAR ===
+[2025-11-21 12:26:49] Valor dólar: 60, Usuario ID: 6
+[2025-11-21 12:26:49] Transacción iniciada
+[2025-11-21 12:26:49] Desactivar tasas anteriores: ÉXITO
+[2025-11-21 12:26:49] Filas afectadas: 1
+[2025-11-21 12:26:49] Insertar nueva tasa: ÉXITO
+[2025-11-21 12:26:49] ID insertado: 7
+[2025-11-21 12:26:49] Ejecutando procedimiento almacenado...
+[2025-11-21 12:26:49] ERROR en transacción: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_pedidos.ingredientes' doesn't exist
+[2025-11-21 12:26:49] Trace: #0 C:\xampp\htdocs\sistema_pedidos\auth\login.php(75): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\sistema_pedidos\auth\login.php(129): guardarTasaDolar(Object(PDO), 60.0, 6)
+#2 {main}
+[2025-11-21 12:26:49] Fallo en guardarTasaDolar
+[2025-11-21 12:26:49] === GETTASAACTUAL ===
+[2025-11-21 12:26:49] Resultado de tasa actual: Array
+(
+    [valor_dolar] => 60.0000
+)
+
+[2025-11-21 12:26:49] Tasa actual para mostrar: 60.0000
+[2025-11-21 12:26:49] === FINALIZANDO LOGIC ===
+[2025-11-21 12:26:49] Show tasa dolar: SI
+[2025-11-21 12:26:49] Error: Error al guardar la tasa en la base de datos. Verifica los logs.
+[2025-11-21 12:26:55] === INICIANDO LOGIN.PHP ===
+[2025-11-21 12:26:55] SESSION: Array
+(
+    [user_id] => 6
+    [user_name] => admin
+    [role] => Admin
+)
+
+[2025-11-21 12:26:55] POST: Array
+(
+    [tasa_dolar] => 36
+    [tasa_action] => keep
+)
+
+[2025-11-21 12:26:55] SERVER METHOD: POST
+[2025-11-21 12:26:55] Es formulario de tasa: SI
+[2025-11-21 12:26:55] === PROCESANDO POST ===
+[2025-11-21 12:26:55] Formulario de tasa detectado
+[2025-11-21 12:26:55] Tasa action: keep
+[2025-11-21 12:26:55] Mantener tasa actual seleccionado
+[2025-11-21 12:26:55] Redirigiendo después de mantener tasa...
+[2025-11-21 12:26:55] Redirigiendo por rol: Admin
+[2025-11-21 12:31:29] === INICIANDO LOGIN.PHP ===
+[2025-11-21 12:31:29] SESSION: Array
+(
+    [user_id] => 1
+    [username] => .
+    [rol] => admin
+    [relacion_id] => 
+    [nombre] => Usuario
+)
+
+[2025-11-21 12:31:29] POST: Array
+(
+)
+
+[2025-11-21 12:31:29] SERVER METHOD: GET
+[2025-11-21 12:31:29] Es formulario de tasa: NO
+[2025-11-21 12:31:29] === FINALIZANDO LOGIC ===
+[2025-11-21 12:31:29] Show tasa dolar: NO
+[2025-11-21 12:31:29] Error: 
+[2025-11-21 12:31:34] === INICIANDO LOGIN.PHP ===
+[2025-11-21 12:31:34] SESSION: Array
+(
+    [user_id] => 1
+    [username] => .
+    [rol] => admin
+    [relacion_id] => 
+    [nombre] => Usuario
+)
+
+[2025-11-21 12:31:34] POST: Array
+(
+    [nombre_usuario] => admin
+    [password] => 123456
+)
+
+[2025-11-21 12:31:34] SERVER METHOD: POST
+[2025-11-21 12:31:34] Es formulario de tasa: NO
+[2025-11-21 12:31:34] === PROCESANDO POST ===
+[2025-11-21 12:31:34] Proceso de login normal
+[2025-11-21 12:31:34] Usuario: admin, Password: PROVIDENCIADO
+[2025-11-21 12:31:34] Buscando usuario en BD: admin
+[2025-11-21 12:31:34] Resultado de usuario: 
+[2025-11-21 12:31:34] Autenticación FALLIDA
+[2025-11-21 12:31:34] === FINALIZANDO LOGIC ===
+[2025-11-21 12:31:34] Show tasa dolar: NO
+[2025-11-21 12:31:34] Error: Nombre de usuario o contraseña incorrectos.
+[2025-11-21 12:32:06] === INICIANDO LOGIN.PHP ===
+[2025-11-21 12:32:06] SESSION: Array
+(
+    [user_id] => 1
+    [username] => .
+    [rol] => admin
+    [relacion_id] => 
+    [nombre] => Usuario
+)
+
+[2025-11-21 12:32:06] POST: Array
+(
+    [nombre_usuario] => admin
+    [password] => 123456
+)
+
+[2025-11-21 12:32:06] SERVER METHOD: POST
+[2025-11-21 12:32:06] Es formulario de tasa: NO
+[2025-11-21 12:32:06] === PROCESANDO POST ===
+[2025-11-21 12:32:06] Proceso de login normal
+[2025-11-21 12:32:06] Usuario: admin, Password: PROVIDENCIADO
+[2025-11-21 12:32:06] Buscando usuario en BD: admin
+[2025-11-21 12:32:06] Error PDO: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_pedidos.usuarios' doesn't exist
+[2025-11-21 12:32:06] === FINALIZANDO LOGIC ===
+[2025-11-21 12:32:06] Show tasa dolar: NO
+[2025-11-21 12:32:06] Error: Error en la base de datos: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'sistema_pedidos.usuarios' doesn't exist
+[2025-11-21 12:35:46] === INICIANDO LOGIN.PHP ===
+[2025-11-21 12:35:46] SESSION: Array
+(
+    [user_id] => 1
+    [username] => .
+    [rol] => admin
+    [relacion_id] => 
+    [nombre] => Usuario
+)
+
+[2025-11-21 12:35:46] POST: Array
+(
+)
+
+[2025-11-21 12:35:46] SERVER METHOD: GET
+[2025-11-21 12:35:46] Es formulario de tasa: NO
+[2025-11-21 12:35:46] === FINALIZANDO LOGIC ===
+[2025-11-21 12:35:46] Show tasa dolar: NO
+[2025-11-21 12:35:46] Error: 
+[2025-11-21 12:35:47] === INICIANDO LOGIN.PHP ===
+[2025-11-21 12:35:47] SESSION: Array
+(
+    [user_id] => 1
+    [username] => .
+    [rol] => admin
+    [relacion_id] => 
+    [nombre] => Usuario
+)
+
+[2025-11-21 12:35:47] POST: Array
+(
+)
+
+[2025-11-21 12:35:47] SERVER METHOD: GET
+[2025-11-21 12:35:47] Es formulario de tasa: NO
+[2025-11-21 12:35:47] === FINALIZANDO LOGIC ===
+[2025-11-21 12:35:47] Show tasa dolar: NO
+[2025-11-21 12:35:47] Error: 
+[2025-11-21 12:35:51] === INICIANDO LOGIN.PHP ===
+[2025-11-21 12:35:51] SESSION: Array
+(
+    [user_id] => 1
+    [username] => .
+    [rol] => admin
+    [relacion_id] => 
+    [nombre] => Usuario
+)
+
+[2025-11-21 12:35:51] POST: Array
+(
+    [nombre_usuario] => admin
+    [password] => 123456
+)
+
+[2025-11-21 12:35:51] SERVER METHOD: POST
+[2025-11-21 12:35:51] Es formulario de tasa: NO
+[2025-11-21 12:35:51] === PROCESANDO POST ===
+[2025-11-21 12:35:51] Proceso de login normal
+[2025-11-21 12:35:51] Usuario: admin, Password: PROVIDENCIADO
+[2025-11-21 12:35:51] Buscando usuario en BD: admin
+[2025-11-21 12:35:51] Resultado de usuario: Array
+(
+    [idUsuario] => 1
+    [nombre_usuario] => admin
+    [contrasena] => $2y$10$G1atE.QvSHsNjxTDsenqB.GeCGIH7uq4ima9Y3F/TtV6Bhe2cNAMe
+    [rol] => 
+)
+
+[2025-11-21 12:35:51] Autenticación EXITOSA
+[2025-11-21 12:35:51] Sesión iniciada: UserID: 1, Rol: 
+[2025-11-21 12:35:51] === GETTASAACTUAL ===
+[2025-11-21 12:35:51] Resultado de tasa actual: 
+[2025-11-21 12:35:51] No es Admin, redirigiendo directamente
+[2025-11-21 12:35:51] Redirigiendo por rol: 
+[2025-11-21 12:36:05] === INICIANDO LOGIN.PHP ===
+[2025-11-21 12:36:05] SESSION: Array
+(
+    [user_id] => 1
+    [username] => .
+    [rol] => admin
+    [relacion_id] => 
+    [nombre] => Usuario
+    [user_name] => admin
+    [role] => 
+)
+
+[2025-11-21 12:36:05] POST: Array
+(
+)
+
+[2025-11-21 12:36:05] SERVER METHOD: GET
+[2025-11-21 12:36:05] Es formulario de tasa: NO
+[2025-11-21 12:36:05] Usuario ya en sesión y NO es formulario de tasa, redirigiendo...
+[2025-11-21 12:36:14] === INICIANDO LOGIN.PHP ===
+[2025-11-21 12:36:14] SESSION: Array
+(
+    [user_id] => 1
+    [username] => .
+    [rol] => admin
+    [relacion_id] => 
+    [nombre] => Usuario
+    [user_name] => admin
+    [role] => 
+)
+
+[2025-11-21 12:36:14] POST: Array
+(
+)
+
+[2025-11-21 12:36:14] SERVER METHOD: GET
+[2025-11-21 12:36:14] Es formulario de tasa: NO
+[2025-11-21 12:36:14] Usuario ya en sesión y NO es formulario de tasa, redirigiendo...
+[2025-11-21 12:36:30] === INICIANDO LOGIN.PHP ===
+[2025-11-21 12:36:30] SESSION: Array
+(
+    [user_id] => 1
+    [username] => .
+    [rol] => admin
+    [relacion_id] => 
+    [nombre] => Usuario
+    [user_name] => admin
+    [role] => 
+)
+
+[2025-11-21 12:36:30] POST: Array
+(
+)
+
+[2025-11-21 12:36:30] SERVER METHOD: GET
+[2025-11-21 12:36:30] Es formulario de tasa: NO
+[2025-11-21 12:36:30] Usuario ya en sesión y NO es formulario de tasa, redirigiendo...
+[2025-11-21 12:36:42] === INICIANDO LOGIN.PHP ===
+[2025-11-21 12:36:42] SESSION: Array
+(
+    [user_id] => 1
+    [username] => .
+    [rol] => admin
+    [relacion_id] => 
+    [nombre] => Usuario
+    [user_name] => admin
+    [role] => 
+)
+
+[2025-11-21 12:36:42] POST: Array
+(
+)
+
+[2025-11-21 12:36:42] SERVER METHOD: GET
+[2025-11-21 12:36:42] Es formulario de tasa: NO
+[2025-11-21 12:36:42] Usuario ya en sesión y NO es formulario de tasa, redirigiendo...
+[2025-11-21 12:36:52] === INICIANDO LOGIN.PHP ===
+[2025-11-21 12:36:52] SESSION: Array
+(
+    [user_id] => 1
+    [username] => .
+    [rol] => admin
+    [relacion_id] => 
+    [nombre] => Usuario
+    [user_name] => admin
+    [role] => 
+)
+
+[2025-11-21 12:36:52] POST: Array
+(
+)
+
+[2025-11-21 12:36:52] SERVER METHOD: GET
+[2025-11-21 12:36:52] Es formulario de tasa: NO
+[2025-11-21 12:36:52] Usuario ya en sesión y NO es formulario de tasa, redirigiendo...
+[2025-11-21 12:37:33] === INICIANDO LOGIN.PHP ===
+[2025-11-21 12:37:33] SESSION: Array
+(
+)
+
+[2025-11-21 12:37:33] POST: Array
+(
+)
+
+[2025-11-21 12:37:33] SERVER METHOD: GET
+[2025-11-21 12:37:33] Es formulario de tasa: NO
+[2025-11-21 12:37:33] === FINALIZANDO LOGIC ===
+[2025-11-21 12:37:33] Show tasa dolar: NO
+[2025-11-21 12:37:33] Error: 
+[2025-11-21 12:37:38] === INICIANDO LOGIN.PHP ===
+[2025-11-21 12:37:38] SESSION: Array
+(
+)
+
+[2025-11-21 12:37:38] POST: Array
+(
+    [nombre_usuario] => admin
+    [password] => 123456
+)
+
+[2025-11-21 12:37:38] SERVER METHOD: POST
+[2025-11-21 12:37:38] Es formulario de tasa: NO
+[2025-11-21 12:37:38] === PROCESANDO POST ===
+[2025-11-21 12:37:38] Proceso de login normal
+[2025-11-21 12:37:38] Usuario: admin, Password: PROVIDENCIADO
+[2025-11-21 12:37:38] Buscando usuario en BD: admin
+[2025-11-21 12:37:38] Resultado de usuario: Array
+(
+    [idUsuario] => 1
+    [nombre_usuario] => admin
+    [contrasena] => $2y$10$G1atE.QvSHsNjxTDsenqB.GeCGIH7uq4ima9Y3F/TtV6Bhe2cNAMe
+    [rol] => Admin
+)
+
+[2025-11-21 12:37:38] Autenticación EXITOSA
+[2025-11-21 12:37:38] Sesión iniciada: UserID: 1, Rol: Admin
+[2025-11-21 12:37:38] === GETTASAACTUAL ===
+[2025-11-21 12:37:38] Resultado de tasa actual: 
+[2025-11-21 12:37:38] === GETTASAACTUAL ===
+[2025-11-21 12:37:38] Resultado de tasa actual: 
+[2025-11-21 12:37:38] Es Admin, mostrando formulario de tasa
+[2025-11-21 12:37:38] === GETTASAACTUAL ===
+[2025-11-21 12:37:38] Resultado de tasa actual: 
+[2025-11-21 12:37:38] Tasa actual para mostrar: 
+[2025-11-21 12:37:38] === FINALIZANDO LOGIC ===
+[2025-11-21 12:37:38] Show tasa dolar: SI
+[2025-11-21 12:37:38] Error: 
+[2025-11-21 12:37:42] === INICIANDO LOGIN.PHP ===
+[2025-11-21 12:37:42] SESSION: Array
+(
+    [user_id] => 1
+    [user_name] => admin
+    [role] => Admin
+)
+
+[2025-11-21 12:37:42] POST: Array
+(
+    [tasa_dolar] => 21
+    [tasa_action] => keep
+)
+
+[2025-11-21 12:37:42] SERVER METHOD: POST
+[2025-11-21 12:37:42] Es formulario de tasa: SI
+[2025-11-21 12:37:42] === PROCESANDO POST ===
+[2025-11-21 12:37:42] Formulario de tasa detectado
+[2025-11-21 12:37:42] Tasa action: keep
+[2025-11-21 12:37:42] Mantener tasa actual seleccionado
+[2025-11-21 12:37:42] Redirigiendo después de mantener tasa...
+[2025-11-21 12:37:42] Redirigiendo por rol: Admin
+[2025-11-24 12:45:20] === INICIANDO LOGIN.PHP ===
+[2025-11-24 12:45:20] SESSION: Array
+(
+)
+
+[2025-11-24 12:45:20] POST: Array
+(
+)
+
+[2025-11-24 12:45:20] SERVER METHOD: GET
+[2025-11-24 12:45:20] Es formulario de tasa: NO
+[2025-11-24 12:45:20] === FINALIZANDO LOGIC ===
+[2025-11-24 12:45:20] Show tasa dolar: NO
+[2025-11-24 12:45:20] Error: 
