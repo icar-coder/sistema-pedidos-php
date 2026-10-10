@@ -13,12 +13,11 @@ jobs:
     - name: 🚚 Get latest code
       uses: actions/checkout@v3
 
-    - name: 📂 Sync files
-      uses: SamKirschner/ftp-deploy-action@v4.3.4
+    - name: 📂 Sync files via FTP
+      uses: SamMousa/ftp-deploy-action@4.3.2
       with:
-        server: ${{ secrets.FTP_SERVER }}
-        username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
+        ftp-server: ${{ secrets.FTP_SERVER }}
+        ftp-username: ${{ secrets.FTP_USERNAME }}
+        ftp-password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: ./
         server-dir: /htdocs/
-        exclude: |
-          **/index2.html
